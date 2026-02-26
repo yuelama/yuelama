@@ -1,0 +1,10 @@
+
+.reviews.data-v-5c68ce9e{padding:12px}
+.heading.data-v-5c68ce9e{font-weight:700;margin-bottom:8px;color:#0F172A}
+.review.data-v-5c68ce9e{display:flex;padding:10px 0;border-bottom:1px solid #f3f3f3}
+.avatar.data-v-5c68ce9e{width:44px;height:44px;border-radius:22px}
+.body.data-v-5c68ce9e{flex:1;padding-left:10px}
+.name.data-v-5c68ce9e{font-weight:600}
+.rating.data-v-5c68ce9e{color:#FF6B35;margin-left:8px}
+.text.data-v-5c68ce9e{margin-top:6px;color:#333}
+

@@ -14,15 +14,8 @@
   </view>
 </template>
 
-<script>
-export default {
-  name: 'BottomTab',
-  methods: {
-    go(path) {
-      uni.switchTab({ url: '/' + path })
-    }
-  }
-}
+<script setup>
+const go = (path) => uni.switchTab({ url: '/' + path })
 </script>
 
 <style scoped>

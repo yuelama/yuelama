@@ -1,0 +1,5 @@
+
+.chips.data-v-675c1e74{display:flex;padding:8px 12px}
+.chip.data-v-675c1e74{padding:8px 12px;margin-right:8px;border-radius:16px;background:#fff;color:#2E8B57;border:1px solid #e6f0ea}
+.chip.active.data-v-675c1e74{background:#2E8B57;color:#fff}
+

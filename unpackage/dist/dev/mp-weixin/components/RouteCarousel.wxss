@@ -1,0 +1,6 @@
+
+.route-carousel.data-v-82b85e04{padding:12px}
+.card.data-v-82b85e04{height:160px;border-radius:12px;background-size:cover;background-position:center;padding:12px;color:#fff;display:flex;flex-direction:column;justify-content:space-between}
+.name.data-v-82b85e04{font-size:18px;font-weight:700}
+.icons.data-v-82b85e04{display:flex;justify-content:space-between;font-size:12px;opacity:0.95}
+

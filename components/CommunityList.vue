@@ -14,18 +14,12 @@
   </view>
 </template>
 
-<script>
-export default {
-  name: 'CommunityList',
-  data() {
-    return {
-      posts: [
-        { id:1, avatar:'/static/tabbar/user.png', name:'小明', time:'2小时前', text:'周末西山约吗？节奏轻松，适合新人~', comments:3, likes:12 },
-        { id:2, avatar:'/static/tabbar/user.png', name:'小红', time:'昨天', text:'谁有登山鞋推荐？', comments:5, likes:7 }
-      ]
-    }
-  }
-}
+<script setup>
+import { reactive } from 'vue'
+const posts = reactive([
+  { id:1, avatar:'/static/tabbar/user.png', name:'小明', time:'2小时前', text:'周末西山约吗？节奏轻松，适合新人~', comments:3, likes:12 },
+  { id:2, avatar:'/static/tabbar/user.png', name:'小红', time:'昨天', text:'谁有登山鞋推荐？', comments:5, likes:7 }
+])
 </script>
 
 <style scoped>

@@ -1,9 +1,10 @@
 {
   "navigationBarTitleText": "主页",
   "usingComponents": {
-    "activity-card": "/components/ActivityCard",
-    "community-list": "/components/CommunityList",
-    "bottom-tab": "/components/BottomTab",
-    "fab": "/components/Fab"
+    "nav-bar-simple": "/components/NavBarSimple",
+    "swiper-hero-simple": "/components/SwiperHeroSimple",
+    "chips-filter": "/components/ChipsFilter",
+    "activity-card-simple": "/components/ActivityCardSimple",
+    "bottom-tab": "/components/BottomTab"
   }
 }

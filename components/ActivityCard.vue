@@ -19,13 +19,10 @@
   </view>
 </template>
 
-<script>
-export default {
-  name: 'ActivityCard',
-  props: {
-    activity: { type: Object, required: true }
-  }
-}
+<script setup>
+defineProps({
+  activity: { type: Object, required: true }
+})
 </script>
 
 <style scoped>

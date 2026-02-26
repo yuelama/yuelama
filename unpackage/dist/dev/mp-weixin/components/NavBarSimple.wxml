@@ -1,0 +1,1 @@
+<view class="nav data-v-163e0b9d"><text class="title data-v-163e0b9d">发现</text><view class="right data-v-163e0b9d"><text data-event-opts="{{[['tap',[['onSearch',['$event']]]]]}}" bindtap="__e" class="data-v-163e0b9d">🔍</text></view></view>

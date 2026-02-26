@@ -1,0 +1,1 @@
+<swiper class="hero data-v-f886c782" indicator-dots="{{true}}" autoplay="{{true}}" interval="4000" circular="{{true}}"><block wx:for="{{images}}" wx:for-item="img" wx:for-index="i" wx:key="i"><swiper-item class="data-v-f886c782"><image class="img data-v-f886c782" src="{{img}}" mode="aspectFill"></image></swiper-item></block></swiper>

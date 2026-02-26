@@ -1,8 +1,4 @@
 
-.page.data-v-92bb8f34{padding-bottom:80px;background:#fff;min-height:100vh}
-.header.data-v-92bb8f34{display:flex;align-items:center;justify-content:space-between;padding:12px;background:linear-gradient(90deg,#f8fbff,#fff)}
-.search.data-v-92bb8f34{flex:1;background:#f2f6fb;padding:10px;border-radius:20px;color:#999}
-.filter.data-v-92bb8f34{margin-left:8px;color:#0B84FF}
-.section.data-v-92bb8f34{padding:12px}
-.section-title.data-v-92bb8f34{font-weight:700;color:#222;margin-bottom:8px}
+.simple-page.data-v-92bb8f34{background:#FAFBFC;min-height:100vh;padding-bottom:80px}
+.list.data-v-92bb8f34{padding-bottom:20px}
 

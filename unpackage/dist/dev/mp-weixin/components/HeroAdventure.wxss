@@ -1,0 +1,10 @@
+
+.hero.data-v-175bd3eb{height:320px;background-size:cover;background-position:center;position:relative;border-bottom-left-radius:16px;border-bottom-right-radius:16px;overflow:hidden}
+.overlay.data-v-175bd3eb{position:absolute;left:0;right:0;bottom:24px;padding:18px;color:#fff}
+.kicker.data-v-175bd3eb{background:rgba(255,107,53,0.16);color:#FF6B35;padding:6px 10px;border-radius:12px;font-size:12px}
+.title.data-v-175bd3eb{font-size:28px;font-weight:700;margin-top:8px}
+.meta.data-v-175bd3eb{margin-top:8px;color:#fff;opacity:0.9}
+.actions.data-v-175bd3eb{margin-top:14px;display:flex}
+.cta.data-v-175bd3eb{background:#FF6B35;color:#fff;border-radius:8px;padding:10px 18px;margin-right:10px}
+.ghost.data-v-175bd3eb{background:rgba(255,255,255,0.12);color:#fff;border-radius:8px;padding:10px 14px}
+

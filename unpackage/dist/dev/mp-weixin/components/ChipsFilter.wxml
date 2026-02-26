@@ -1,0 +1,1 @@
+<scroll-view class="chips data-v-675c1e74" scroll-x="true"><block wx:for="{{chips}}" wx:for-item="c" wx:for-index="i" wx:key="i"><view data-event-opts="{{[['tap',[['$emit',['change','$0',i],[[['chips','',i]]]]]]]}}" class="{{['data-v-675c1e74','chip',selected===i?'active':'']}}" bindtap="__e">{{c}}</view></block></scroll-view>

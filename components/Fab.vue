@@ -4,14 +4,11 @@
   </view>
 </template>
 
-<script>
-export default {
-  name: 'Fab',
-  methods: {
-    onClick() {
-      uni.navigateTo({ url: '/pages/create/create' })
-    }
-  }
+<script setup>
+import { emit } from 'vue'
+const onClick = () => {
+  // placeholder: navigate to create page
+  uni.navigateTo({ url: '/pages/create/create' })
 }
 </script>
 

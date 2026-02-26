@@ -142,14 +142,24 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var ActivityCard = function ActivityCard() {
-  __webpack_require__.e(/*! require.ensure | components/ActivityCard */ "components/ActivityCard").then((function () {
-    return resolve(__webpack_require__(/*! ../../components/ActivityCard.vue */ 344));
+var NavBarSimple = function NavBarSimple() {
+  __webpack_require__.e(/*! require.ensure | components/NavBarSimple */ "components/NavBarSimple").then((function () {
+    return resolve(__webpack_require__(/*! ../../components/NavBarSimple.vue */ 337));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
-var CommunityList = function CommunityList() {
-  __webpack_require__.e(/*! require.ensure | components/CommunityList */ "components/CommunityList").then((function () {
-    return resolve(__webpack_require__(/*! ../../components/CommunityList.vue */ 337));
+var SwiperHeroSimple = function SwiperHeroSimple() {
+  __webpack_require__.e(/*! require.ensure | components/SwiperHeroSimple */ "components/SwiperHeroSimple").then((function () {
+    return resolve(__webpack_require__(/*! ../../components/SwiperHeroSimple.vue */ 344));
+  }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
+};
+var ChipsFilter = function ChipsFilter() {
+  __webpack_require__.e(/*! require.ensure | components/ChipsFilter */ "components/ChipsFilter").then((function () {
+    return resolve(__webpack_require__(/*! ../../components/ChipsFilter.vue */ 351));
+  }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
+};
+var ActivityCardSimple = function ActivityCardSimple() {
+  __webpack_require__.e(/*! require.ensure | components/ActivityCardSimple */ "components/ActivityCardSimple").then((function () {
+    return resolve(__webpack_require__(/*! ../../components/ActivityCardSimple.vue */ 399));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var BottomTab = function BottomTab() {
@@ -157,21 +167,20 @@ var BottomTab = function BottomTab() {
     return resolve(__webpack_require__(/*! ../../components/BottomTab.vue */ 358));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
-var Fab = function Fab() {
-  __webpack_require__.e(/*! require.ensure | components/Fab */ "components/Fab").then((function () {
-    return resolve(__webpack_require__(/*! ../../components/Fab.vue */ 349));
-  }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
-};
 var _default = {
-  name: 'HomePage',
+  name: 'HomeSimple',
   components: {
-    ActivityCard: ActivityCard,
-    CommunityList: CommunityList,
-    BottomTab: BottomTab,
-    Fab: Fab
+    NavBarSimple: NavBarSimple,
+    SwiperHeroSimple: SwiperHeroSimple,
+    ChipsFilter: ChipsFilter,
+    ActivityCardSimple: ActivityCardSimple,
+    BottomTab: BottomTab
   },
   data: function data() {
     return {
+      heroImages: ['/static/tabbar/home.png', '/static/tabbar/home.png'],
+      chips: ['全部', '周末', '近郊', '难度:简单', '难度:中等'],
+      selectedChip: 0,
       activities: [{
         id: 1,
         image: '/static/tabbar/home.png',
@@ -190,13 +199,46 @@ var _default = {
         participants: 15,
         capacity: 18,
         level: '中等'
+      }, {
+        id: 3,
+        image: '/static/tabbar/home.png',
+        title: '城市绿道慢行',
+        organizer: '小陈',
+        time: '3月6日 09:00',
+        participants: 3,
+        capacity: 12,
+        level: '简单'
       }]
     };
   },
+  computed: {
+    filteredActivities: function filteredActivities() {
+      if (this.selectedChip === 0) return this.activities;
+      var key = this.chips[this.selectedChip];
+      if (key.includes('难度')) {
+        var lv = key.split(':')[1];
+        return this.activities.filter(function (a) {
+          return a.level === lv;
+        });
+      }
+      if (key === '周末') return this.activities.filter(function (a) {
+        return a.time.includes('周');
+      });
+      return this.activities;
+    }
+  },
   methods: {
-    onSearch: function onSearch() {
+    onChipChange: function onChipChange(c, i) {
+      this.selectedChip = i;
+    },
+    onJoin: function onJoin(act) {
       uni.navigateTo({
-        url: '/pages/search/search'
+        url: '/pages/activity/detail?id=' + act.id
+      });
+    },
+    onOpen: function onOpen(act) {
+      uni.navigateTo({
+        url: '/pages/activity/detail?id=' + act.id
       });
     }
   }
