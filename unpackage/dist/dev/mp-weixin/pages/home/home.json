@@ -1,4 +1,9 @@
 {
   "navigationBarTitleText": "主页",
-  "usingComponents": {}
+  "usingComponents": {
+    "activity-card": "/components/ActivityCard",
+    "community-list": "/components/CommunityList",
+    "bottom-tab": "/components/BottomTab",
+    "fab": "/components/Fab"
+  }
 }
