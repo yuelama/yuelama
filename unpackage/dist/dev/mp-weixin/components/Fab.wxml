@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['onClick',['$event']]]]]}}" class="fab data-v-69780308" bindtap="__e"><text class="plus data-v-69780308">＋</text></view>

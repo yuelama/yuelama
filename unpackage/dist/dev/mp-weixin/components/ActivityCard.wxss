@@ -1,0 +1,11 @@
+
+.activity-card.data-v-16640bcc{display:flex;padding:12px;background:#fff;border-radius:8px;margin-bottom:12px;box-shadow:0 2px 6px rgba(0,0,0,0.04)}
+.thumb.data-v-16640bcc{width:110px;height:80px;border-radius:6px;flex-shrink:0}
+.body.data-v-16640bcc{flex:1;padding-left:12px;display:flex;flex-direction:column;justify-content:space-between}
+.title.data-v-16640bcc{font-size:16px;color:#0B84FF;font-weight:600}
+.level.data-v-16640bcc{font-size:12px;padding:2px 6px;border-radius:10px;background:#f0f6ff;color:#0B84FF;margin-left:8px}
+.meta.data-v-16640bcc{color:#666;font-size:12px;margin-top:6px}
+.footer.data-v-16640bcc{display:flex;justify-content:space-between;align-items:center;margin-top:8px}
+.join-btn.data-v-16640bcc{background:#34C759;color:#fff;border-radius:6px;padding:6px 12px}
+.participants.data-v-16640bcc{font-size:12px;color:#999}
+

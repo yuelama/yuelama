@@ -1,0 +1,10 @@
+
+.pill.data-v-2d7194e1{ display:flex; align-items:center; gap:8px;
+}
+.bar.data-v-2d7194e1{ width:80px; height:8px; background:#eee; border-radius:8px; overflow:hidden;
+}
+.fill.data-v-2d7194e1{ height:100%; background:#2E8B57;
+}
+.label.data-v-2d7194e1{ font-size:12px; color:#6B7280;
+}
+

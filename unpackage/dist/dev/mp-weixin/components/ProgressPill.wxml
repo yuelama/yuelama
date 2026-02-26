@@ -1,0 +1,1 @@
+<view class="pill data-v-2d7194e1"><view class="bar data-v-2d7194e1"><view class="fill data-v-2d7194e1" style="{{'width:'+(percent+'%')+';'}}"></view></view><text class="label data-v-2d7194e1">{{value+"/"+max}}</text></view>
