@@ -1,0 +1,10 @@
+---
+description: 
+alwaysApply: true
+enabled: true
+updatedAt: 2026-02-28T00:38:47.215Z
+provider: 
+---
+
+1.本项目是vue3+uniapp+unicloud 框架开发的用户端微信小程序
+2.禁止编写说明文档，直接给出代码

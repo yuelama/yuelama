@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/index/index",
+    "pages/orders/orders",
+    "pages/profile/profile",
     "uni_modules/uni-id-pages/pages/userinfo/deactivate/deactivate",
     "uni_modules/uni-id-pages/pages/userinfo/userinfo",
     "uni_modules/uni-id-pages/pages/userinfo/bind-mobile/bind-mobile",
@@ -20,8 +21,8 @@
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "悦拉玛",
+    "navigationBarBackgroundColor": "#FFFFFF",
     "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
@@ -32,13 +33,19 @@
     "list": [
       {
         "pagePath": "pages/home/home",
-        "text": "主页",
+        "text": "课程预约",
         "iconPath": "static/tabbar/home.png",
         "selectedIconPath": "static/tabbar/home-active.png"
       },
       {
-        "pagePath": "uni_modules/uni-id-pages/pages/userinfo/userinfo",
-        "text": "我的",
+        "pagePath": "pages/orders/orders",
+        "text": "我的订单",
+        "iconPath": "static/tabbar/orders.png",
+        "selectedIconPath": "static/tabbar/orders-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人资料",
         "iconPath": "static/tabbar/user.png",
         "selectedIconPath": "static/tabbar/user-active.png"
       }

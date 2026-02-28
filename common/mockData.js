@@ -1,0 +1,80 @@
+export const mockCourses = [
+  {
+    id: '1',
+    title: '瑜伽基础课程',
+    instructor: '李静老师',
+    description: '适合初学者的瑜伽课程，帮助你放松身心，改善体态，提升柔韧性。小班教学，一对一指导。',
+    duration: '60分钟/课',
+    price: 198,
+    category: '健康养生',
+    imageUrl: 'https://images.unsplash.com/photo-1717839339049-2aba90aaabc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400',
+    availableSeats: 8,
+    location: '朝阳区瑜伽馆',
+    schedules: ['周一 09:00-10:00', '周三 14:00-15:00', '周五 19:00-20:00']
+  },
+  {
+    id: '2',
+    title: '私房烘焙课程',
+    instructor: '王美老师',
+    description: '从零开始学习烘焙技巧，制作蛋糕、面包、饼干等美味甜点。提供所有食材和工具。',
+    duration: '120分钟/课',
+    price: 288,
+    category: '生活技能',
+    imageUrl: 'https://images.unsplash.com/photo-1758279745466-f5f4087a87d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400',
+    availableSeats: 6,
+    location: '海淀区烘焙教室',
+    schedules: ['周六 10:00-12:00', '周日 14:00-16:00']
+  },
+  {
+    id: '3',
+    title: '水彩绘画工坊',
+    instructor: '张艺老师',
+    description: '学习水彩画基础技法，从色彩搭配到构图设计，创作属于自己的艺术作品。',
+    duration: '90分钟/课',
+    price: 258,
+    category: '艺术创作',
+    imageUrl: 'https://images.unsplash.com/photo-1770739879041-22f0dfc37301?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400',
+    availableSeats: 10,
+    location: '东城区艺术中心',
+    schedules: ['周二 15:00-16:30', '周四 15:00-16:30', '周日 10:00-11:30']
+  },
+  {
+    id: '4',
+    title: '吉他入门课程',
+    instructor: '刘阳老师',
+    description: '零基础学吉他，从认识吉他到弹唱简单歌曲，让音乐成为你生活的一部分。',
+    duration: '60分钟/课',
+    price: 218,
+    category: '音乐教学',
+    imageUrl: 'https://images.unsplash.com/photo-1758524944402-1903b38f848f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400',
+    availableSeats: 5,
+    location: '西城区音乐教室',
+    schedules: ['周一 18:00-19:00', '周三 18:00-19:00', '周六 14:00-15:00']
+  },
+  {
+    id: '5',
+    title: '摄影入门课程',
+    instructor: '赵明老师',
+    description: '学习摄影基础知识，掌握相机操作技巧，拍出更有质感的照片。包含外拍实践。',
+    duration: '120分钟/课',
+    price: 328,
+    category: '摄影教学',
+    imageUrl: 'https://images.unsplash.com/photo-1752649938189-25651a4040fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400',
+    availableSeats: 12,
+    location: '朝阳区摄影工作室',
+    schedules: ['周六 09:00-11:00', '周日 09:00-11:00']
+  },
+  {
+    id: '6',
+    title: '健身塑形课程',
+    instructor: '陈强教练',
+    description: '专业健身教练一对一指导，科学训练计划，帮助你快速达到理想体型。',
+    duration: '60分钟/课',
+    price: 368,
+    category: '健康养生',
+    imageUrl: 'https://images.unsplash.com/photo-1765728617805-b9f22d64e5b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=400',
+    availableSeats: 4,
+    location: '海淀区健身中心',
+    schedules: ['周一 17:00-18:00', '周三 17:00-18:00', '周五 17:00-18:00']
+  }
+]
